@@ -15,9 +15,9 @@ const Card = () => {
       <div>
         <div className="flex items-center space-x-2">
           <FaRegClipboard />
-          <p>Free delivery</p>
+          <p>Return delivery</p>
         </div>
-        <p>Enter your postal code for delivery availability</p>
+        <p>Free 30days Delivery Returns. Details</p>
       </div>
     </div>
   );

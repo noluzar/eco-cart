@@ -3,6 +3,7 @@ import { GoDash, GoPlus } from "react-icons/go";
 import { CiHeart } from "react-icons/ci";
 import { Button } from "./Button";
 import Card from "./Card";
+import ColorComponent from "./ColorComponent";
 
 const ProductInfo = () => {
   return (
@@ -12,9 +13,7 @@ const ProductInfo = () => {
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
           voluptas voluptatum facilis quam, beatae aperiam Obcaecati
-          voluptas voluptatum facilis quam Obcaecati
-          voluptas voluptatum facilis quam Obcaecati
-          voluptas voluptatum facilis quam{" "}
+          voluptas voluptatum facilis quam Obcaecati{" "}
         </p>
         <div className="flex items-center space-x-2 pb-4">
           <MdOutlineStar />
@@ -29,6 +28,7 @@ const ProductInfo = () => {
         <p className="text-2xl font-semibold">R549.00 or 99.99/month</p>
         <p>Suggested payments bla bla bla</p>
       </div>
+      <ColorComponent/>
       <div className="flex items-center space-x-4 mt-4 bg-gray-100 w-30 justify-center p-2 rounded-full">
         <GoDash />
         <p>2</p>

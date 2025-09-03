@@ -4,9 +4,9 @@ import ProductInfo from '../components/ProductInfo'
 
 const MainLayout = () => {
   return (
-    <div>
+    <div className='bg-white shadow-2xl'>
         <Navbar/>
-        <div className='flex gap-20 p-4'>
+        <div className='flex gap-10 p-4'>
             <ImageGrid/>
             <ProductInfo/>
         </div>
