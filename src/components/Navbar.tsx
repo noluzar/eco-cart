@@ -11,14 +11,14 @@ const Navbar = () => {
       <div className="flex justify-between items-center p-4">
         <div className="flex space-x-10 items-center">
           <div>EcoCart</div>
-          <div className="space-x-4 text-sm font-semibold">
+          <div className="space-x-8 text-s">
             <a href="#">HOME</a>
             <a href="#">BRANDS</a>
             <a href="#">ABOUT</a>
             <a href="#">CONTACT</a>
           </div>
         </div>
-        <div className="flex space-x-4 items-center text-xl">
+        <div className="flex space-x-4 items-center text-2xl">
           <CiSearch />
           <LuShoppingCart />
           <CgProfile />

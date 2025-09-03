@@ -15,7 +15,7 @@ const ProductInfo = () => {
           voluptas voluptatum facilis quam, beatae aperiam Obcaecati
           voluptas voluptatum facilis quam Obcaecati{" "}
         </p>
-        <div className="flex items-center space-x-2 pb-4">
+        <div className="flex items-center space-x-2 pb-4 text-green-900">
           <MdOutlineStar />
           <MdOutlineStar />
           <MdOutlineStar />
@@ -37,7 +37,7 @@ const ProductInfo = () => {
       <div className="flex items-center space-x-4 py-4">
         <Button name="Buy Now" />
         <Button name="Add to Cart" />
-        <CiHeart className="border p-2 rounded-full size-10 cursor-pointer hover:text-purple-600 hover:font-semibold" />
+        <CiHeart className="border p-2 rounded-full size-10 cursor-pointer hover:text-blue-950 hover:font-semibold" />
       </div>
       <Card/>
     </div>

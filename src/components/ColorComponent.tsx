@@ -2,7 +2,7 @@ import React from 'react'
 
 const ColorComponent = () => {
   return (
-    <div>
+    <div className='py-2'>
         <p className='font-semibold text-lg'>Choose a color</p>
         <div className='flex space-x-2 py-2'>
             <img src='./black.jpg'
