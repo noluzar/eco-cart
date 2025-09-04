@@ -8,14 +8,16 @@ import ColorComponent from "./ColorComponent";
 const ProductInfo = () => {
   return (
     <div className="w-[50%] space-y-2">
-      <div>
-        <h2 className="text-4xl pb-4 font-bold">Airpods - Max</h2>
+      <div className="space-y-2">
+        <h2 className="text-4xl font-bold">Airpods - Max</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
           voluptas voluptatum facilis quam, beatae aperiam Obcaecati
-          voluptas voluptatum facilis quam Obcaecati{" "}
+          voluptas voluptatum facilis quam Obcaecati Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+          voluptas voluptatum facilis quam, beatae aperiam Obcaecati
+          voluptas voluptatum facilis quam Obcaecati {" "}
         </p>
-        <div className="flex items-center space-x-2 pb-4 text-green-900">
+        <div className="flex items-center space-x-2 pb-4 text-blue-950">
           <MdOutlineStar />
           <MdOutlineStar />
           <MdOutlineStar />
@@ -26,13 +28,19 @@ const ProductInfo = () => {
       </div>
       <div>
         <p className="text-2xl font-semibold">R549.00 or 99.99/month</p>
-        <p>Suggested payments bla bla bla</p>
+        <p className="text-sm">Suggested payments bla bla bla</p>
       </div>
       <ColorComponent/>
-      <div className="flex items-center space-x-4 mt-4 bg-gray-100 w-30 justify-center p-2 rounded-full">
+      <div className="flex items-end space-x-4">
+        <div className="flex items-center space-x-4 mt-4 bg-gray-100 w-30 justify-center p-2 rounded-full">
         <GoDash />
         <p>2</p>
         <GoPlus />
+      </div>
+      <div className="text-[12px]">
+        <p>Only 12 items left!</p>
+        <p>Don't miss it</p>
+      </div>
       </div>
       <div className="flex items-center space-x-4 py-4">
         <Button name="Buy Now" />

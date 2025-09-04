@@ -1,6 +1,5 @@
 import { CiSearch } from "react-icons/ci";
-import { LuShoppingCart } from "react-icons/lu";
-import { CgProfile } from "react-icons/cg";
+import { CiShoppingCart, CiUser } from "react-icons/ci";
 
 const Navbar = () => {
   return (
@@ -20,8 +19,8 @@ const Navbar = () => {
         </div>
         <div className="flex space-x-4 items-center text-2xl">
           <CiSearch />
-          <LuShoppingCart />
-          <CgProfile />
+          <CiShoppingCart />
+          <CiUser />
         </div>
       </div>
     </div>
